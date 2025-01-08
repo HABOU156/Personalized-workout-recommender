@@ -1,54 +1,42 @@
-# Personalized-workout-recommender
-**Vue d’Ensemble**
-
-Le Recommandeur d’Entraînements Personnalisés IA est un système intelligent conçu pour fournir des plans d’entraînement adaptés aux besoins individuels. En analysant les préférences, les objectifs de mise en forme et les données de santé des utilisateurs, l’IA génère des routines personnalisées pour optimiser la performance et le bien-être.
-
-
+# Personalized Workout Recommender
+**Description**
+L'application Personalized Workout Recommender est une interface web simple développée avec Flask qui permet aux utilisateurs de filtrer des exercices d'entraînement en fonction de la zone cible et du niveau de difficulté. Les données des exercices sont chargées à partir d'un fichier CSV, ce qui permet une gestion facile et flexible des exercices.
 **Fonctionnalités**
-
-Plans d’Entraînement Personnalisés : Recommandations basées sur les objectifs de l’utilisateur, tels que la perte de poids, le gain musculaire, l’endurance ou la flexibilité.
-
-Analyse Basée sur l’IA : Utilise des algorithmes avancés pour adapter les plans à mesure que les données utilisateur évoluent.
-
-Suivi des Progrès : Suit les progrès en matière de condition physique pour ajuster l’intensité et la variété des entraînements.
-
-Options d’Intégration : Synchronisation avec les appareils portables et les applications de fitness pour recueillir des données en temps réel.
-
-Bibliothèque d’Exercices Diversifiés : Propose une variété d’entraînements, y compris cardio, musculation, yoga et HIIT.
-
-Interface Conviviale : Navigation simple avec des tableaux de bord personnalisés.
-
+-Chargement des données d'exercices à partir d'un fichier CSV.
+-Filtrage des exercices par zone cible (Pectoraux, Jambes, Dos, Abdominaux).
+-Filtrage des exercices par niveau de difficulté (Facile, Intermédiaire).
+-Affichage des exercices recommandés dans un tableau.
+**Prérequis**
+Python 3.x
+Flask
+Pandas
+**Installation**
+1. Clonez le dépôt :
+```   git clone <URL_DU_DEPOT>
+   cd Personalized-workout-recommender
+2. Installez les dépendances :
+Assurez-vous d'avoir pip installé, puis exécutez :
+```   pip install Flask pandas
+3.Préparez le fichier CSV :
+Assurez-vous que le fichier workout_data.csv est présent dans le répertoire du projet. Vous pouvez utiliser le format suivant pour le fichier CSV :
+```    Exercise,Zone cible,Equipment Required,Difficulté,Reps,Sets,Duration
+   Pompes,Pectoraux,Poids du corps,Facile,10,3,30s
+   Squats,Jambes,Aucun,Facile,15,3,30s
+   Soulevé de terre,Dos,Barre,Intermédiaire,8,4,60s
+   Développé couché,Pectoraux,Barre,Intermédiaire,10,3,60s
+   Tirage horizontal,Dos,Machine,Intermédiaire,12,3,45s
+   Fentes,Jambes,Aucun,Facile,10,3,30s
+   Planche,Abdominaux,Poids du corps,Facile,30s,3,30s
+   Crunchs,Abdominaux,Aucun,Facile,15,3,30s
 **Utilisation**
-
-S’Inscrire / Se Connecter : Créez un compte ou connectez-vous pour accéder aux fonctionnalités personnalisées.
-
-Saisir les Données :
-
-Définissez vos objectifs de fitness.
-
-Entrez vos métriques de santé (par ex. poids, taille, niveau d’activité).
-
-Facultatif : connectez des appareils portables.
-
-Obtenir des Recommandations :
-
-Recevez des plans d’entraînement quotidiens.
-
-Consultez des instructions détaillées et des guides vidéo pour les exercices.
-
-Suivre les Progrès :
-
-Utilisez le tableau de bord pour surveiller les métriques de performance.
-
-Mettez à jour votre profil au fur et à mesure que vos objectifs évoluent.
-
-
-
-**Feuille de Route**
-
-Modèles IA Améliorés : Intégration de techniques avancées d’apprentissage automatique.
-
-Entraînements de Groupe : Plans d’entraînement pour équipes et familles.
-
-Gamification : Introduction de badges et récompenses pour les étapes franchies.
-
+1.Lancez l'application :
+```   python app.py
+2. Accédez à l'application :
+Ouvrez votre navigateur et allez à http://127.0.0.1:5000.
+3. Filtrer les exercices :
+    -Sélectionnez une zone cible et un niveau de difficulté dans les menus déroulants.
+    -Cliquez sur le bouton "Filtrer" pour afficher les exercices correspondants.
+**Contribuer**
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer cette application, n'hésitez pas à soumettre une demande de tirage (pull request).
+**License**
+Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
