@@ -1,10 +1,10 @@
 # Personalized-workout-recommender
-Vue d’Ensemble
+**Vue d’Ensemble**
 
 Le Recommandeur d’Entraînements Personnalisés IA est un système intelligent conçu pour fournir des plans d’entraînement adaptés aux besoins individuels. En analysant les préférences, les objectifs de mise en forme et les données de santé des utilisateurs, l’IA génère des routines personnalisées pour optimiser la performance et le bien-être.
 
 
-Fonctionnalités
+**Fonctionnalités**
 
 Plans d’Entraînement Personnalisés : Recommandations basées sur les objectifs de l’utilisateur, tels que la perte de poids, le gain musculaire, l’endurance ou la flexibilité.
 
@@ -18,7 +18,7 @@ Bibliothèque d’Exercices Diversifiés : Propose une variété d’entraîneme
 
 Interface Conviviale : Navigation simple avec des tableaux de bord personnalisés.
 
-Utilisation
+**Utilisation**
 
 S’Inscrire / Se Connecter : Créez un compte ou connectez-vous pour accéder aux fonctionnalités personnalisées.
 
@@ -44,7 +44,7 @@ Mettez à jour votre profil au fur et à mesure que vos objectifs évoluent.
 
 
 
-Feuille de Route
+**Feuille de Route**
 
 Modèles IA Améliorés : Intégration de techniques avancées d’apprentissage automatique.
 
