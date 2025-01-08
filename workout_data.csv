@@ -1,11 +1,9 @@
-Exercise Name,Target Area,Equipment Required,Experience Level,Reps,Sets,Duration
-Squat,"Fessiers, Jambes",Aucun,Débutant,10,3,1 min
-Planche,Abdominaux,Aucun,Débutant,NA,3,30 sec
-Soulevé de terre,"Fessiers, Jambes",Haltères,Intermédiaire,12,3,1 min
-Pompes,"Pectoraux, Triceps",Aucun,Débutant,15,3,1 min
-Fentes,"Jambes, Fessiers",Aucun,Débutant,12,3,1 min
-Tractions,"Dorsaux, Biceps",Barre de traction,Intermédiaire,8,3,1 min
-Développé couché,"Pectoraux, Triceps",Barre de musculation,Intermédiaire,10,3,1 min
-Crunchs,Abdominaux,Aucun,Débutant,20,3,30 sec
-Burpees,Tout le corps,Aucun,Débutant,10,3,1 min
-Rameur,"Cardio, Épaules",Machine,Tous niveaux,NA,3,10 min
+Exercise,Zone cible,Equipment Required,Difficulté,Reps,Sets,Duration
+Pompes,Pectoraux,Poids du corps,Facile,10,3,30s
+Squats,Jambes,Aucun,Facile,15,3,30s
+Soulevé de terre,Dos,Barre,Intermédiaire,8,4,60s
+Développé couché,Pectoraux,Barre,Intermédiaire,10,3,60s
+Tirage horizontal,Dos,Machine,Intermédiaire,12,3,45s
+Fentes,Jambes,Aucun,Facile,10,3,30s
+Planche,Abdominaux,Poids du corps,Facile,30s,3,30s
+Crunchs,Abdominaux,Aucun,Facile,15,3,30s
