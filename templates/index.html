@@ -1,0 +1,56 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommender d'Exercices</title>
+</head>
+<body>
+    <h1>Recommender d'Exercices</h1>
+    <form method="POST">
+        <label for="target_area">Zone cible :</label>
+        <select name="target_area" id="target_area">
+            <option value="">--Sélectionner--</option>
+            <option value="Pectoraux">Pectoraux</option>
+            <option value="Jambes">Jambes</option>
+            <option value="Dos">Dos</option>
+            <option value="Abdominaux">Abdominaux</option>
+        </select>
+
+        <label for="difficulty">Difficulté :</label>
+        <select name="difficulty" id="difficulty">
+            <option value="">--Sélectionner--</option>
+            <option value="Facile">Facile</option>
+            <option value="Intermédiaire">Intermédiaire</option>
+        </select>
+
+        <button type="submit">Filtrer</button>
+    </form>
+
+    <h2>Exercices recommandés :</h2>
+    <table border="1">
+        <tr>
+            <th>Exercice</th>
+            <th>Zone cible</th>
+            <th>Équipement requis</th>
+            <th>Difficulté</th>
+            <th>Reps</th>
+            <th>Sets</th>
+            <th>Durée</th>
+        </tr>
+        {% for workout in workouts.itertuples() %}
+        <tr>
+            <td>{{ workout.Exercise }}</td>
+            <td>{{ workout._2 }}</td>
+            <td>{{ workout._3 }}</td>
+            <td>{{ workout.Difficulté }}</td>
+            <td>{{ workout.Reps }}</td>
+            <td>{{ workout.Sets }}</td>
+            <td>{{ workout.Duration }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
