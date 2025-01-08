@@ -21,7 +21,38 @@ L'application **Personalized Workout Recommender** est une interface web simple 
 
 1. **Clonez le dépôt** :  
    Clonez le dépôt sur votre machine locale et accédez au répertoire du projet :
-
-   ```bash
+   Assurez-vous que le fichier workout_data.csv est présent dans le répertoire du projet. Vous pouvez utiliser le format suivant pour le fichier CSV :
    git clone <URL_DU_DEPOT>
    cd Personalized-workout-recommender
+2. **Installez les dépendances** :
+   Assurez-vous d'avoir pip installé, puis exécutez :
+   ```bash
+   pip install Flask pandas
+3. **Préparez le fichier CSV** :
+   Assurez-vous que le fichier workout_data.csv est présent dans le répertoire du projet. Vous pouvez utiliser le format suivant pour le fichier CSV :
+   ```CSV
+   Exercise,Zone cible,Equipment Required,Difficulté,Reps,Sets,Duration
+Pompes,Pectoraux,Poids du corps,Facile,10,3,30s
+Squats,Jambes,Aucun,Facile,15,3,30s
+Soulevé de terre,Dos,Barre,Intermédiaire,8,4,60s
+Développé couché,Pectoraux,Barre,Intermédiaire,10,3,60s
+Tirage horizontal,Dos,Machine,Intermédiaire,12,3,45s
+Fentes,Jambes,Aucun,Facile,10,3,30s
+Planche,Abdominaux,Poids du corps,Facile,30s,3,30s
+Crunchs,Abdominaux,Aucun,Facile,15,3,30s
+## Utilisation
+1. **Lancez l'application** :
+   Exécutez la commande suivante pour démarrer l'application :
+   ```bash
+   python app.py
+3. **Accédez à l'application** :
+   Ouvrez votre navigateur et allez à http://127.0.0.1:5000.
+4. **Filtrez les exercices** :
+   -Sélectionnez une zone cible et un niveau de difficulté dans les menus déroulants.
+   -Cliquez sur le bouton Filtrer pour afficher les exercices correspondants.
+## Contribuer
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer cette application, n'hésitez pas à soumettre une demande de tirage (pull request).
+## License
+Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
+
+
