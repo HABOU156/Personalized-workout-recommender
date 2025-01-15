@@ -50,9 +50,6 @@ Crunchs,Abdominaux,Aucun,Facile,15,3,30s
 4. **Filtrez les exercices** :
    -Sélectionnez une zone cible et un niveau de difficulté dans les menus déroulants.
    -Cliquez sur le bouton Filtrer pour afficher les exercices correspondants.
-## Contribuer
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer cette application, n'hésitez pas à soumettre une demande de tirage (pull request).
-## License
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
+
 
 
